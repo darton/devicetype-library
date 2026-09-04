@@ -1,0 +1,31 @@
+---
+manufacturer: Extreme Networks
+model: AP310i
+slug: extreme-networks-ap310i
+part_number: AP310i
+u_height: 0
+is_full_depth: false
+
+comments: |
+  Extreme Networks AP310i Indoor Wi-Fi 6 Access Point.
+
+  Features:
+  - Wi-Fi 6 (802.11ax)
+  - Dual-radio 2x2:2
+  - Integrated antennas
+  - 1x 10/100/1000 Ethernet
+  - PoE 802.3af/802.3at
+
+power-ports:
+  - name: PoE-In
+    type: ita-c
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+
+  - name: radio-2.4GHz
+    type: ieee802.11ax
+
+  - name: radio-5GHz
+    type: ieee802.11ax
